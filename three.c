@@ -1,10 +1,13 @@
 /* three.c */
 
+#include <stdio.h>
+
+int i;
 void main() 
 {
-	int number = 0;
-	if (number > 2)
-   	{
-			printf("%2d squared is %3d\n", number, number * number);
+	for(i = 1; i <= 10; i++)
+	{
+		printf("%2d squared is %3d\n", i, i * i);
 	}
+	return(0);
 }
